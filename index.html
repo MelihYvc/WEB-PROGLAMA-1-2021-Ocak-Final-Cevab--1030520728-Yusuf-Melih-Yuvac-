@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-Ticaret Sistem-Sepetim</title>
+</head>
+
+<body>
+
+    <div class="container bg-white p-5">
+
+        <img src="bm.png" alt="" class="d-block mx-auto ">
+        <h3 class="text-center ">Erciyes Üniversite Bilgisayar Mühendisliği Bölümü Web Programlama 1 Dersi final sorusu</h3>
+
+        <h5 class="text-center mb-2">Dr.Öğretim Üyesi Fehim Köylü</h5>
+        <h4 class="text-center">Alışveriş Uygulaması</h4>
+        <p class="text-center">Vermek istediğiniz siparişler için aşağıdaki listeden seçerek adedini belirtiniz</p>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center mt-5">
+            <div class="col">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">Ekmek</div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">2₺ <small class="text-muted">/adet</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Somun Ekmek</li>
+                            <li>200 gr</li>
+                        </ul>
+                       <button type="button" class="w-100 btn btn-lg btn-primary">Sepete Ekle</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">Çikolata</div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">5₺ <small class="text-muted">/adet</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Bitter Çikolata </li>
+                            <li>60 gr</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Sepete Ekle</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">Domates</div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">6₺ <small class="text-muted">/kg</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Domates</li>
+                            <li>Antalya Sera</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Sepete Ekle</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5 col-lg-4 order-md-last">
+           <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-muted">Siparişleriniz</span>
+          <span class="badge bg-secondary rounded-pill white">3</span>
+        </h4>
+            <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <p>Somun Ekmek (2) 4₺</p>
+            </div>
+            <span class=" red" >x</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <div>
+              <p>Domates (1) 6₺</p>
+            </div>
+            </div>
+            <span class=" red" >x</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <div>
+              <p>Çikolata (1) 5₺</p>
+            </div>
+            </div>
+            <span class=" red" >x</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between bg-light">
+            <div class="text-success">
+              <h6 class="my-0">İndirim Kuponu</h6>
+              <small>erciyes-bilgisayar</small>
+            </div>
+            <span class="text-success">1₺</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>Toplam Fiyat</span>
+            <strong>14₺</strong>
+          </li>
+        </ul>
+            <form class="card p-2">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="İndirim Kuponu">
+            <button type="submit" class="btn btn-secondary">Kupon gir</button>
+          </div>
+        </form>
+        
+        </div>
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">© Yusuf Melih Yuvacı Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü </p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="https://bm.erciyes.edu.tr/?Anasayfa">Bölüm Sayfası</a></li>
+      <li class="list-inline-item"><a href="#">Alışveriş Kuralları</a></li>
+      <li class="list-inline-item"><a href="#">Destek</a></li>
+    </ul>
+  </footer>
+
+
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
